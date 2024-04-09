@@ -36,15 +36,15 @@ void main()
                 height: 175,
                 width: 250,
                 decoration: const BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Colors.deepOrange,
-                      Colors.white,
-                      Colors.green,
-                    ]
-                  )
+                    gradient: LinearGradient(
+                        begin: Alignment.topCenter,
+                        end: Alignment.bottomCenter,
+                        colors: [
+                          Colors.deepOrange,
+                          Colors.white,
+                          Colors.green,
+                        ]
+                    )
                 ),
                 child: const Center(
 
