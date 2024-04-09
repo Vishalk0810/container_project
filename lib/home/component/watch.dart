@@ -28,7 +28,7 @@ void main()
                 colors: [
                   Color(0xFF47436d),
                   Color(0xFF2195f1),
-              ],
+                ],
               ),
             ),
             child: Center(
@@ -43,9 +43,9 @@ void main()
                 child: const Center(
                   child: Text(
                     'Flutter',style: TextStyle(
-                    fontSize: 25,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white
                   ),
                   ),
                 ),
