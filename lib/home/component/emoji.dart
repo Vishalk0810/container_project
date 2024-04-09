@@ -81,7 +81,8 @@ void main() {
                     fontSize: 30,
                     color: Colors.white),
               ),
-            )),
+            ),
+        ),
       ),
     ),
   );
