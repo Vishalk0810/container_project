@@ -30,8 +30,8 @@ void main()
                 boxShadow: [
                   BoxShadow(
                     color:Colors.red,
-                    spreadRadius: 1,
-                    blurRadius: 40,
+                    spreadRadius: -4,
+                    blurRadius: 30,
                   ),
                 ]
             ),

@@ -6,10 +6,10 @@ void main()
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         appBar: AppBar(
 
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.teal,
           centerTitle: true,
           leading: Icon(Icons.menu,color: Colors.white,),
           title: Text(
@@ -24,14 +24,14 @@ void main()
             height: 75,
             width: 250,
             decoration: BoxDecoration(
-              border: Border.all(width: 1.2,color: Colors.red),
+              border: Border.all(width: 1.2,color: Colors.teal),
               borderRadius: BorderRadius.all(Radius.circular(20)),
-              color: Colors.black,
+              color: Colors.white,
               boxShadow: [
                 BoxShadow(
-                  color:Colors.red,
-                  spreadRadius: 1,
-                  blurRadius: 40,
+                  color:Colors.teal,
+                  spreadRadius: -4,
+                  blurRadius: 30,
                 ),
               ]
             ),
@@ -40,7 +40,7 @@ void main()
                 'Tap',style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
-                color: Colors.white
+                color: Colors.black
               ),
               ),
             ),
