@@ -26,13 +26,13 @@ void main() {
               height: 100,
               width: 250,
               decoration: const BoxDecoration(
-                boxShadow: [
-                  BoxShadow(
-                    offset: Offset(6, 4),
-                    color: Colors.pink,
-                    blurRadius: 20,
-                  )
-                ],
+                  boxShadow: [
+                    BoxShadow(
+                      offset: Offset(6, 4),
+                      color: Colors.pink,
+                      blurRadius: 20,
+                    )
+                  ],
                   borderRadius: BorderRadius.all(Radius.circular(50)),
                   gradient: LinearGradient(colors: [
                     Colors.purple,
