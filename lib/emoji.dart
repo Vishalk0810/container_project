@@ -22,7 +22,7 @@ void main() {
               height: 210,
               width: 210,
               decoration:
-                  BoxDecoration(color: Colors.orange, shape: BoxShape.circle),
+              BoxDecoration(color: Colors.orange, shape: BoxShape.circle),
               child: Row(
                 children: [
                   Padding(
