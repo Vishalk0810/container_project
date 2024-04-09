@@ -24,23 +24,23 @@ void main()
             height: 75,
             width: 250,
             decoration: BoxDecoration(
-              border: Border.all(width: 1.2,color: Colors.red),
-              borderRadius: BorderRadius.all(Radius.circular(20)),
-              color: Colors.black,
-              boxShadow: [
-                BoxShadow(
-                  color:Colors.red,
-                  spreadRadius: 1,
-                  blurRadius: 40,
-                ),
-              ]
+                border: Border.all(width: 1.2,color: Colors.red),
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+                color: Colors.black,
+                boxShadow: [
+                  BoxShadow(
+                    color:Colors.red,
+                    spreadRadius: 1,
+                    blurRadius: 40,
+                  ),
+                ]
             ),
             child: Center(
               child: Text(
                 'Tap',style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 25,
-                color: Colors.white
+                  fontWeight: FontWeight.bold,
+                  fontSize: 25,
+                  color: Colors.white
               ),
               ),
             ),
