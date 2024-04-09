@@ -11,8 +11,8 @@ void main()
 
           backgroundColor: Colors.teal,
           centerTitle: true,
-          leading: Icon(Icons.menu,color: Colors.white,),
-          title: Text(
+          leading: const Icon(Icons.menu,color: Colors.white,),
+          title: const Text(
             'A Shadow Button',style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
@@ -27,7 +27,7 @@ void main()
                 border: Border.all(width: 1.2,color: Colors.teal),
                 borderRadius: BorderRadius.all(Radius.circular(20)),
                 color: Colors.white,
-                boxShadow: [
+                boxShadow: const [
                   BoxShadow(
                     color:Colors.teal,
                     spreadRadius: -4,
@@ -35,7 +35,7 @@ void main()
                   ),
                 ]
             ),
-            child: Center(
+            child: const Center(
               child: Text(
                 'Tap',style: TextStyle(
                   fontWeight: FontWeight.bold,
